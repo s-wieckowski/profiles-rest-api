@@ -27,6 +27,7 @@ SECRET_KEY = '0_$1h$&+wxd*!oq9ox-@3t)w8(o^z7s6jjje7@$c)abez19!i^'
 # Use the following setting on production:
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
+# put allowd hosts here. Eg. AWS host name if running on AWS.
 ALLOWED_HOSTS = []
 
 
